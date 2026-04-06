@@ -1,0 +1,41 @@
+nav{
+  text-align: center;
+  text-decoration: none;
+  color: #F1EBEB;
+  background-color:#E11717;
+}
+h1{
+  background-color:green;
+  text-decoration:none;
+  text-wrap:right;
+  color: #641883;
+}
+h2{
+  background-color:green;
+  text-decoration:none;
+  text-wrap:right;
+  color: #641883;
+}
+p{
+   background-color:pink;
+   color: #6C3535;
+   text-decoration:none;
+   text-align:left;
+}
+dt{
+  background-color:pink;
+   color: #6C3535;
+   text-decoration:none;
+   text-align:left;
+  
+}
+ul{
+  background-color:blue;
+  color:orange;
+  
+}
+footer{
+  background-color:#3A3E74B3;
+  color: #662727;
+  
+}
