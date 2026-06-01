@@ -2,172 +2,57 @@
 <html>
 
 <head>
-  <style>
-  body{
-    margin:0;
-}
-main{
-    width:100%;
-    margin:0;
-    padding:30px;
-    background:white;
-    border-radius:20px;
-    box-sizing:border-box;
-}
-header,main{
-    width:100%;
-    box-sizing:border-box;
-}
-/* ===== BODY ===== */
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:linear-gradient(135deg,#eef2f3,#d9e4f5);
-    color:#222;
-}
-
-/* ===== HEADER ===== */
-header{
-    background:linear-gradient(90deg,#ff3d77,#ff5f3a);
-    padding:40px 20px;
-    text-align:c
-    box-shadow:0 6px 15px rgba(0,0,0,0.25);
-}
-
-header h1{
-    color:white;
-    font-size:55px;
-    margin:0;
-    text-transform:uppercase;
-    letter-spacing:3px;
-    text-shadow:2px 2px 10px rgba(0,0,0,0.3);
-}
-
-/* ===== MAIN ===== */
-main{
-    background:#fdfdfd;
-    padding:30px;
-    border-radius:35px 35px 0 0;
-    box-shadow:0 -2px 20px rgba(0,0,0,0.08);
-}
-
-/* ===== HEADINGS ===== */
-main h2{
-    color:#ff3d77;
-    font-size:40px;
-    margin-top:40px;
-    border-left:8px solid #ff5f3a;
-    padding-left:15px;
-    text-transform:capitalize;
-}
-
-/* ===== PARAGRAPH ===== */
-main p{
-    font-size:24px;
-    line-height:1.9;
-    color:#333;
-}
-
-/* ===== TABLE ===== */
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:25px;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-th{
-    background:linear-gradient(90deg,#ff3d77,#ff5f3a);
-    color:white;
-    padding:18px;
-    font-size:22px;
-}
-
-td{
-    background:white;
-    padding:18px;
-    text-align:center;
-    font-size:20px;
-    border:1px solid #eee;
-}
-
-tr:hover td{
-    background:#ffe5ee;
-    transition:0.3s;
-}
-
-/* ===== DESCRIPTION LIST ===== */
-dt{
-    color:#ff3d77;
-    font-size:30px;
-    font-weight:bold;
-    margin-top:25px;
-}
-
-dd{
-    font-size:22px;
-    color:#444;
-    line-height:1.7;
-    margin-bottom:20px;
-}
-
-/* ===== FOOTER ===== */
-footer{
-    background:#111827;
-    color:white;
-    text-align:c
-    padding:25px;
-    font-size:20px;
-    letter-spacing:1px;
-}
-    
-  </style>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>salma college</title>
+  <link rel="stylesheet" href="style.css" title="" type="" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Css Box Model</title>
 </head>
 
 <body>
-  <header>
-    <h1>welcome to my college</h1>
-  </header>
-  <div>
-    <main>
-      <h2 >introduction</h2>
-      <p>waxan idinku soo dhaweyneena college keena kaas oo la magac baxay salma college. <br /> waxadne ka heli karaa wax barasho dhameystiran <br/> sidoo kle waxad ka helee  agab  wax barasho oo dhameystiran.</p>
-     <h2> service </h2>
-     <p>maadooyinka aan dhigno waxa kamid basic of computer, design, mathematics, marketing,networking</p>
-     <h2>jadwalkena shaqada</h2>
-     <table border="1">
-       <th>Sabti</th>
-       <th>Axad</th>
-       <th>Isiine</th>
-       <th>Talaado</th>
-       <th>Arbaco</th>
-     </table>
-     <table border="1">
-       <td>B.C</td>
-       <td>design</td>
-       <td>math</td>
-       <td>marktng</td>
-       <td>ntwrkng</td>
-       
-     </table>
-     <p>sidaan idin bari doono maadooyinka</p>
-     <dl>
-       <dt>B.c</dt><dd>waxan ka bilaawi doona basic ilaa level high</dd>
-       <dt>design</dt><dd>waa qeybta ugu muhiimadsan waxa ka dhigi doona 7hours</dd>
-       <dt>mathematics</dt><dd>waa abaha kuliyadaha oo dhan waana qeybta asalka</dd><dt>marketing and networking</dt><dd>iyagane after class kadib ayaan ka dhignay</dd>
-     </dl>
-    </main>
-  </div>
-  <div>
-    <footer>
-      <p><h4>&copy; copyright 2026.xaquuqda.wa college salma</h4></p>
-    </footer>
-  </div>
+  <div class="main-container">
+    
+  
+    <div class="card">
+    <h2 id="h2">Welcome Css box</h2>
+    <p>Waxa halkaan niigu heynaa barshada Css box oo qaab course ah welibo waxan idinku baridoona qiimo jaban anagoo adeegsaneyno xirfadeena wax idinku soo dhaweyneena gacmo furan😊</p>
+  </div></div>
+  <form action="" method="get" accept-charset="utf-8">
+    <fieldset>
+      <p>
+        <legend>students list</legend><br />
+        <label for="firstname" id="firstname">first name</label><br />
+        <input type="text" name="firstname" id="firstname" value="" />
+      </p>
+      <p>
+       <label for="secondname" id="secondname">second name</label><br />
+        <input type="text" name="secondname" id="secondname" value="" />
+      </p>
+      <p><label for="lastname" id="lastname">last name</label><br />
+        <input type="text" name="lastname" id="lastname" value="" /></p>
+       <p>
+         <label for="Emil">Emil</label><br />
+         <input type="email" name="email" id="email">
+       </p>
+       <p>
+         <label for="mobile">mobile</label><br />
+         <input type="tell" name="mobile" id="mobile" value="" / required>
+       </p>
+       <p>
+         <label for="choose Gander">choose Gander</label>
+         <input type="radio" name="Gander" id="male" value="" />
+         <label for="male">male</label>
+         <input type="radio" name="Gander" id="female" value="" />
+         <label for="female">female</label>
+       </p>
+       <p>
+         <input type="submit" name="submit" id="submit" value="save data" />&nbsp;&nbsp;
+         <input type="reset" name="clear_form" id="clear_form" value="reset_form" />
+         
+       </p>
+    </fieldset>
+    
+  </form>
+
 </body>
 
 </html>
