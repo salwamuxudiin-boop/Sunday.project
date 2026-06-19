@@ -2,65 +2,134 @@
 <html>
 
 <head>
-    <style>
-  body{
-    background-image: url(picturesbashi.jpg);
-    background-size:50%;
-    background-repeat: no-repeat;
-    background-repeat: repeat-x;
-  }
-  h3,p{
-    color:black;
-    background-color: yellowgreen;
-  }
-  ol,h5{
-    color: black;
-    background-color: yellowgreen;
-  }
-  *{
-    font-family: 'Times New Roman', Times, serif;
-  }
-  nav{background-color: white;
-  color: black;
-    text-align: center;
-  }
-  </style>
+  <style>
+    .container {
+    display: flex;             /* Wuxuu ka dhigayaa Flexbox */
+    flex-wrap: wrap;           /* Haddii shaashadu yaraato, sanduuqyada hoos ayay u dhacayaan */
+    gap: 20px;                 /* Masaafada u dhaxaysa sanduuqyada */
+    justify-content: center;   /* Inay dhexda yimaadaan sanduuqyadu */
+    padding: 20px;
+}
+
+/* 2. Naqshada Sanduuq kasta (Travel Card) */
+.box1 {
+    background-color: #ffffff;
+    color:brown;
+    border: 1px solid #e0e0e0; /* Xariiq khafiif ah oo ku wareegsan */
+    border-radius: 8px;        /* Geesaha oo xoogaa la wareejiyay */
+    padding: 20px;
+    text-align: center;        /* Qoraalka iyo sawirka in dhexda la keeno */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Hoos (shadow) khafiif ah */
     
+    /* Responsive: */
+    flex: 1 1 220px;           /* Sanduuqu kama yaraan karo 220px ballac ahaan */
+    max-width: 300px;          /* Ballaca ugu weyn ee uu qaadan karo hal sanduuq */
+}
+
+/* 3. Naqshada Sawirka */
+.box2,img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;        /* Sawirka oo laga dhigay goobo/circle */
+    object-fit: cover;         /* Si uusan sawirku u fidsamin */
+    border: 3px solid pink ; /* Xariiq cagaar ah oo ku wareegsan sawirka */
+    margin-bottom: 15px;
+}
+h1 {
+    color: #4CAF50;            /* Midabka cagaarka ah ee cinwaanka */
+    font-size: 1.2rem;
+    margin: 0;
+    text-align:center;
+}
+a, nav{
+  text-align:center ;
+  color:black ;
+  text-decoration:none ;
+}
+a:active{
+  color:pink;
+}
+a:visid{
+  color: yellow;
+}
+a:hover{
+  color:red;
+}
+
+  
+.new{
+    background-color: #ffffff;
+    color:brown;
+    border: 1px solid #e0e0e0; /* Xariiq khafiif ah oo ku wareegsan */
+    border-radius: 8px;        /* Geesaha oo xoogaa la wareejiyay */
+    padding: 20px;
+    text-align: center;        /* Qoraalka iyo sawirka in dhexda la keeno */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Hoos (shadow) khafiif ah */
+    
+    /* Responsive: */
+    flex: 1 1 220px;           /* Sanduuqu kama yaraan karo 220px ballac ahaan */
+    max-width: 300px;          /* Ballaca ugu weyn ee uu qaadan karo hal sanduuq */
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2e7d32;
+    letter-spacing: 0.5px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.03);
+    width: 100%;
+    margin-top: auto;
+}
+
+footer:hover {
+    color: #1b5e20;
+    transition: color 0.3s ease;
+}
+
+
+
+  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>company flower🌼</title>
+  <title></title>
 </head>
 
 <body>
-
-   <div class="">
-    <nav>
-      <a href="index.html"><img src="pictureshome.jpg" alt="" width="60" />home</a>&nbsp;
-      <a href="contact.html"><img src="picturescontact.jpg" alt="" width="79" />contact</a>&nbsp;&nbsp;
-      <a href="about.html"><img src="picturesabout.jpg" alt="" width="80" />about</a>&nbsp;&nbsp;
-      <a href="service.html"><img src="picturesservice.jpg" alt="" width="76" />service</a>
-    </nav>
-   
+    <div class="header">
+    <i class="fa-solid f-circle"></i>
+    <h1>about traveling</h1>
+    
   </div>
   <div>
-    <main>
-    
-        <h3>hormarinta companygeyga</h3>
-      <p>meelaha aan tiigsaneeno waa inaa gaarsino dadlka dibadisa sida</p>
-      <ol>
-        <li>Asian</li>
-        <li>American</li>
-        <li>African</li>
-      </ol>
-        <audio controls>
-          <source src="pictures/ggg.mp4"> 
-        </audio>
-    </main>
+    <nav>
+      <a href="index.html">home</a>&nbsp;
+      <a href="about.html">about</a>&nbsp;
+      <a href="content.html">content</a>&nbsp;
+      <a href="visit.html">service</a>
+      <a href="voice.html">voice</a>
+    </nav>
   </div>
-    <div>
-    <footer>
-      <p><h5>&copy; copyright 2026.xaquuqda website company of flowers</h5></p>
-    </footer>
+  
+  <div class="container">
+  <div class="box1">
+    <p>meela tarikhiga ah ee dalkeena loo so dalxiiso waxa kamid eh</p>
+    <p><img src="sayidka.jpg" alt="" width="70" /><h2>sayid maxamed</h2></p>
+    <p>sayidka wuxu kamid aha dadkii dalka usoo halgamay tarikhne ku leh bulshada somalia</p>
+    
+  </div>
+  <div class="new">
+    <p><img src="hawa.jpg" alt=""  width="70"/><h2>hawa tako</h2></p>
+    <p>hawa waxey eheed gabdhii ugu horeysay ee taarikhada lagu xusay madama ay dalkeeda ay cidna ku haleyn</p>
+  </div>
+       <footer>
+    <p>&copy;2026.xaquuqda.website.travel</p>
+  </footer>
   </div>
 </body>
 
